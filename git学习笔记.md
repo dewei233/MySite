@@ -1,3 +1,5 @@
+## git 本地操作
+
 * cd 到指定的路径
 * 执行初始化命令
 
@@ -37,5 +39,15 @@ git commit -m '备注信息'
 
 ```
 git log
+```
+
+
+
+## 提交到github
+
+```
+git remote add origin https://github.com/dewei233/mysite.git
+git branch -M main
+git push -u origin main
 ```
 
